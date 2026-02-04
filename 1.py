@@ -20,7 +20,7 @@ def caser() :
     shift = 5
     shifted_alphabet = alphabet[shift:] + alphabet[:shift]
     translation_table = str.maketrans(alphabet,shifted_alphabet)
-    text = 'hello world'
+    text = name
     encrypted_text = text.translate(translation_table)
     print(encrypted_text)
 
